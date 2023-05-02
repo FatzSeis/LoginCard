@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="py-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="container">
+        <form id="login-form">
+            <div id="form-header">
+                <h1>Login</h1>
+                    <label class="label" for="chk">
+                    <i id="mode-icon" class="fa-moon"></i><ion-icon class="fa-moon" id="moon-icon" name="moon"></ion-icon>
+            </div>
+            <div id="social-media">
+                <a href="#">
+                    <ion-icon class="faceicon" name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon class="googleicon" name="logo-google"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon class="giticon" name="logo-github"></ion-icon>
+                </a>
+            </div>
+            <div id="input">
+                <div class="input-box">
+                    
+                    <label for="name">Usuário
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <ion-icon name="person"></ion-icon>
+                            <input type="text" id="name" name="name" >
+                        </div>
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label for="email">E-Mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <ion-icon name="mail"></ion-icon>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label for="password">Senha
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <ion-icon name="key"></ion-icon>
+                            <input type="password" id="senha" name="senha">
+                        </div>
+                    </label>
+                    <div id="forgot-password">
+                        <a href="#">
+                            Esqueçeu sua senha?
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="login-button">
+                Login
+            </button>
+        </form>
+    </main>
+    
+</body>
+<script src="script.js"></script>
+<script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script> 
+<script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" > </script>
+</html>
